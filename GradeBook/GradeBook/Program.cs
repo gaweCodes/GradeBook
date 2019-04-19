@@ -11,7 +11,7 @@ namespace GradeBook
             normalStudent.AddGradeToBook(50);
             normalStudent.AddGradeToBook(75);
             normalStudent.AddGradeToBook(100);
-
+            
             var badDayStudent = CreateStudent("Leirbag", new BadDayGradeBook());
             badDayStudent.AddGradeToBook(25);
             badDayStudent.AddGradeToBook(50);
